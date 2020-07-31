@@ -1,4 +1,4 @@
-package com.xyy;
+package com.xyy.wordcount;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
