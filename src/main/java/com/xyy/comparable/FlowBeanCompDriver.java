@@ -17,6 +17,8 @@ public class FlowBeanCompDriver {
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf);
 
+        job.setJarByClass(FlowBeanCompDriver.class);
+
         job.setMapperClass(FlowBeanCompMapper.class);
         job.setReducerClass(FlowBeanCompReducer.class);
 
